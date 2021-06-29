@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archetipo95/tailwind-netflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Archetipo95/tailwind-netflix/issues"
+  },
+  "homepage": "https://github.com/Archetipo95/tailwind-netflix#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.3.8"
+  }
+}

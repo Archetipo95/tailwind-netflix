@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Italy - Watch TV Shows Online. Watch Movies Online.</title>
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body class="bg-gray-900 h-screen">
+    <section class="relative w-full h-5/6">
+      <img
+        class="inset-0 absolute h-full w-full object-cover object-center"
+        src="./img/bg.jpg"
+        alt="background"
+      />
+      <div class="absolute inset-0 bg-black h-full w-full bg-opacity-70"></div>
+
+      <header class="relative pt-8 px-6 flex justify-between">
+        <img class="w-28 ml-0" src="./img/netflix.svg" alt="logo" />
+        <div class="mr-0 flex row">
+          <a
+            class="
+              text-white
+              rounded-sm
+              border border-white
+              bg-black bg-opacity-70
+              py-1
+              px-4
+              mr-6
+            "
+            href="#"
+            >English</a
+          >
+          <a
+            class="text-white bg-red-600 py-1 px-4 rounded-sm text-lg flex"
+            href="#"
+            >Sign In</a
+          >
+        </div>
+      </header>
+      <div class="relative text-white flex flex-col text-center justify-center pt-36 w-full px-56">
+        <h1 class="text-4xl font-bold">Unlimited movies, TV shows, and more.</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <input type="email" name="input-email" id="email" />
+      </div>
+    </section>
+  </body>
+</html>
